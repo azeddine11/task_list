@@ -1,0 +1,107 @@
+*{
+    box-sizing: border-box;     /* The normal width includes the padding and border that u will add */
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: rgb(221, 221, 221);
+}
+
+header {
+    padding: 20px 10px;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+header h1 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: rgb(196, 0, 0);
+}
+
+
+input, button {
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+#the_task {
+    background-color: rgb(41, 40, 61);
+    padding: 10px 180px 10px 20px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: aliceblue;
+}
+
+#add_task {
+    font-size: 16px;
+    font-weight: 900;
+    color: rgb(197, 0, 0);
+    padding-left: 20px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+#add_task:hover{
+    color: rgb(197, 0, 0);
+    letter-spacing: 1px;
+    transition: 0.8s;
+}
+
+
+main {
+    padding: 20px 10px;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.tasks_list h2 {
+    font-size: 20px;
+    font-weight: 900;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+    color: rgb(196, 0, 0);
+}
+
+
+#tasks .task {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(41, 40, 61);
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 14px;  
+    margin: 20px;
+}
+
+#tasks .task .content .text {
+    color: aliceblue;
+}
+
+#tasks .task .actions button{
+    font-size: 14px;
+    font-weight: 900;
+    color: rgb(197, 0, 0);
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 50px;
+}
+
+#tasks .task .actions button:hover{
+    color: rgb(197, 0, 0);
+    letter-spacing: 1px;
+    transition: 0.7s;
+}
